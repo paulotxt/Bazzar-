@@ -16,33 +16,30 @@ Para utilizar o projeto Bazzar, siga estas etapas:
 
 Clonar o Repositório: Clone este repositório em sua máquina local utilizando o comando:
 
-bash
+
 
 ```
 git clone https://github.com/paulotxt/Bazzar-.git
 ```
 Instalar Dependências: Navegue até o diretório do projeto e instale as dependências utilizando o npm ou yarn:
 
-
 ```
 npm install
 ```
 ou
-
 
 ```
 yarn install
 ```
 Executar o Aplicativo: Com as dependências instaladas, você pode executar o aplicativo em um emulador ou dispositivo físico. Utilize o comando:
 
-arduino
+
 
 ```
 npx react-native run-android
 ```
 para dispositivos Android, ou
 
-arduino
 
 ```
 npx react-native run-ios

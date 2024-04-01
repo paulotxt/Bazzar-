@@ -19,7 +19,7 @@ Clonar o Repositório: Clone este repositório em sua máquina local utilizando 
 bash
 Copy code
 ```
-git clone https://github.com/seu-usuario/bazzar.git
+git clone https://github.com/paulotxt/Bazzar-.git
 ```
 Instalar Dependências: Navegue até o diretório do projeto e instale as dependências utilizando o npm ou yarn:
 

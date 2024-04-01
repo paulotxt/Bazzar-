@@ -1,4 +1,3 @@
-
 Bazzar - Projeto React Native
 Bem-vindo ao repositório do projeto Bazzar! Este é um aplicativo móvel desenvolvido com React Native, utilizando React Navigation para a navegação entre telas e navigation/native-stack para gerenciar a pilha de navegação. Além disso, implementamos um carrossel para oferecer uma experiência intuitiva de navegação pelos produtos.
 
@@ -19,25 +18,35 @@ Clonar o Repositório: Clone este repositório em sua máquina local utilizando 
 
 bash
 Copy code
+```
 git clone https://github.com/seu-usuario/bazzar.git
+```
 Instalar Dependências: Navegue até o diretório do projeto e instale as dependências utilizando o npm ou yarn:
 
 Copy code
+```
 npm install
+```
 ou
 
 Copy code
+```
 yarn install
+```
 Executar o Aplicativo: Com as dependências instaladas, você pode executar o aplicativo em um emulador ou dispositivo físico. Utilize o comando:
 
 arduino
 Copy code
+```
 npx react-native run-android
+```
 para dispositivos Android, ou
 
 arduino
 Copy code
+```
 npx react-native run-ios
+```
 para dispositivos iOS.
 
 Explorar o Aplicativo: Uma vez que o aplicativo esteja em execução, explore as diferentes telas e funcionalidades para familiarizar-se com o Bazzar.

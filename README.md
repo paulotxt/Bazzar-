@@ -1,10 +1,10 @@
-Bazzar - Projeto React Native
+ <h1> Bazzar - Projeto React Native</h1>
 Bem-vindo ao repositório do projeto Bazzar! Este é um aplicativo móvel desenvolvido com React Native, utilizando React Navigation para a navegação entre telas e navigation/native-stack para gerenciar a pilha de navegação. Além disso, implementamos um carrossel para oferecer uma experiência intuitiva de navegação pelos produtos.
 
 Sobre o Projeto
-Bazzar é um aplicativo de compras que visa proporcionar aos usuários uma experiência simplificada e intuitiva para explorar e comprar uma variedade de produtos. Com uma interface amigável e funcionalidades úteis, o Bazzar é o companheiro perfeito para suas compras online.
-
+Bazzar é um aplicativo de compras que visa proporcionar aos usuários uma experiência simplificada e intuitiva para explorar e comprar uma variedade de produtos. Com uma interface amigável e funcionalidades úteis.
 Funcionalidades Principais
+
 Navegação Intuitiva: Utilizamos o React Navigation para criar uma experiência de navegação fluida e intuitiva entre as diferentes telas do aplicativo.
 
 Gerenciamento de Navegação: O navigation/native-stack é utilizado para gerenciar a pilha de navegação, garantindo uma transição suave entre as telas e um fluxo de trabalho eficiente.

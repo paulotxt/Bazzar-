@@ -1,57 +1,79 @@
- <h1> Bazzar - Projeto React Native</h1>
-Bem-vindo ao repositório do projeto Bazzar! Este é um aplicativo móvel desenvolvido com React Native, utilizando React Navigation para a navegação entre telas e navigation/native-stack para gerenciar a pilha de navegação. Além disso, implementamos um carrossel para oferecer uma experiência intuitiva de navegação pelos produtos.
+This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-Sobre o Projeto
-Bazzar é um aplicativo de compras que visa proporcionar aos usuários uma experiência simplificada e intuitiva para explorar e comprar uma variedade de produtos. Com uma interface amigável e funcionalidades úteis.
-Funcionalidades Principais
+# Getting Started
 
-Navegação Intuitiva: Utilizamos o React Navigation para criar uma experiência de navegação fluida e intuitiva entre as diferentes telas do aplicativo.
+>**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
-Gerenciamento de Navegação: O navigation/native-stack é utilizado para gerenciar a pilha de navegação, garantindo uma transição suave entre as telas e um fluxo de trabalho eficiente.
+## Step 1: Start the Metro Server
 
-Carrossel de Produtos: Implementamos um carrossel de produtos para facilitar a visualização e seleção de itens, proporcionando uma experiência de compra agradável.
+First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
 
-Como Utilizar o Projeto
-Para utilizar o projeto Bazzar, siga estas etapas:
+To start Metro, run the following command from the _root_ of your React Native project:
 
-Clonar o Repositório: Clone este repositório em sua máquina local utilizando o comando:
+```bash
+# using npm
+npm start
 
-
-
+# OR using Yarn
+yarn start
 ```
-git clone https://github.com/paulotxt/Bazzar-.git
+
+## Step 2: Start your Application
+
+Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+
+### For Android
+
+```bash
+# using npm
+npm run android
+
+# OR using Yarn
+yarn android
 ```
-Instalar Dependências: Navegue até o diretório do projeto e instale as dependências utilizando o npm ou yarn:
 
+### For iOS
+
+```bash
+# using npm
+npm run ios
+
+# OR using Yarn
+yarn ios
 ```
-npm install
-```
-ou
 
-```
-yarn install
-```
-Executar o Aplicativo: Com as dependências instaladas, você pode executar o aplicativo em um emulador ou dispositivo físico. Utilize o comando:
+If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
 
+This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
 
+## Step 3: Modifying your App
 
-```
-npx react-native run-android
-```
-para dispositivos Android, ou
+Now that you have successfully run the app, let's modify it.
 
+1. Open `App.tsx` in your text editor of choice and edit some lines.
+2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
 
-```
-npx react-native run-ios
-```
-para dispositivos iOS.
+   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
 
-Explorar o Aplicativo: Uma vez que o aplicativo esteja em execução, explore as diferentes telas e funcionalidades para familiarizar-se com o Bazzar.
+## Congratulations! :tada:
 
-Contribuições
-Contribuições são sempre bem-vindas! Se você deseja melhorar o Bazzar, sinta-se à vontade para enviar um pull request. Certifique-se de seguir as diretrizes de contribuição e de incluir uma descrição detalhada das alterações propostas.
+You've successfully run and modified your React Native App. :partying_face:
 
-Problemas e Sugestões
-Se você encontrar algum problema ou tiver alguma sugestão para melhorar o Bazzar, por favor, abra uma issue neste repositório. Faremos o possível para abordar quaisquer problemas e considerar todas as sugestões para futuras atualizações.
+### Now what?
 
-Obrigado por utilizar o Bazzar
+- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
+- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+
+# Troubleshooting
+
+If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+
+# Learn More
+
+To learn more about React Native, take a look at the following resources:
+
+- [React Native Website](https://reactnative.dev) - learn more about React Native.
+- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
+- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
+- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
+- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
